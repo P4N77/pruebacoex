@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./muro-hormigon-gris-claro.jpg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    margin: auto;  
+ padding: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.contenedor1{
+    height: 55rem;
+    border-radius: 10px 0  0 10px;
+    background-color: #BFDCE5;
+}
+.contenedor2{
+    width: 60rem;
+    border-radius: 0 10px 10px 0;
+    background-color: #EEEEEE;
+    -webkit-box-shadow: 4px 1px 17px 2px rgba(0, 0, 0, 0.312); 
+box-shadow: 4px 1px 17px 2px rgba(0, 0, 0, 0.271);
+}
+.contenedorClientes{
+   padding: 20px;
+}
+.contenedorCreditos{
+    padding: 20px;
+}
+#imagen_contenedor{
+    padding: 80px;
+    margin-left: 10px;
+}
+#usuario_logo{
+    width: 100px;
+}
+
+.usuario_titulo{
+    padding-left: 7%;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+.botonInicio{
+   
+    padding: 20px;
+    margin: 10px;
+    background-color: #3E54AC;
+    border-radius: 10px;
+}
+.botonInicio:hover{
+    background-color: #778d89;
+    cursor: pointer;
+}
+.botonClientes{
+    
+    padding: 20px;
+    margin: 10px;
+    background-color: #3E54AC;
+    border-radius: 10px;
+}
+.botonClientes:hover{
+    background-color: #778d89;
+    cursor: pointer;
+}
+.botonCreditos{
+   
+    padding: 20px;
+    margin: 10px;
+    background-color: #3E54AC;
+    border-radius: 10px;
+}
+.botonCreditos:hover{
+    background-color: #778d89;
+    cursor: pointer;
+}
+.botonCerrar{
+    
+    padding: 20px;
+    margin-top: 14rem;
+    background-color: #3E54AC;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-box-shadow: 3px 12px 9px 0px rgba(0, 0, 0, 0.194); 
+box-shadow: 3px 12px 9px 0px rgba(0, 0, 0, 0.271);
+}
+.botonCerrar:hover{
+    background-color: #778d89;
+    cursor: pointer;
+}
+.salir{
+    margin-left: -30px;
+    
+}
+.titulo{
+    padding: 20px;
+   
+    text-align: center;
+    margin: 20px;
+    width: 57rem;
+    font-weight: 500;
+    font-size: 40px;
+    background-color: #3E54AC;
+    border-radius: 10px;
+}
+.contenedorClientes{
+    margin-top: 250px;
+    width: 25rem;
+    background-color: #3E54AC;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.contenedorCreditos{
+    margin-top: 250px;
+    width: 25rem;
+    margin-left: 60px;
+    margin-right: 20px;
+    background-color: #3E54AC;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
